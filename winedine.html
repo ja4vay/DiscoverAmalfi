@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Wine and Dine</title>
+<link href="winedinestyles.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <header>
+  
+	<div class="topnav" id="myTopnav">
+	  <div class="logo">
+	  <a href="#homepage" class="active">Discover Amalfi</a></div>
+	  <a href="#news">Stay</a>
+	  <a href="#contact">Explore</a>
+	  <a href="#about">Wine & Dine</a>
+	  <a href="#about">Tips</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+   
+  </header>
+  <section>
+    <figure>
+	  <img src="NightPositano.png" alt="AmalfiEvening" class="WineandDineImg">
+	</figure>
+	
+	<h2>Where to Wine, Dine, and Mingle</h2>
+	 <article class="Portofino">
+	  <div class="PortofinoRow">
+       <div class="PortofinoText">
+	    <h3>Portofino</h3>
+	     <h4>Taverna del Marinaio</h4>
+		  <p>If you crave great quality seafood or pasta while exploring Portofino, and you don't want to spend a fortune, stop into
+		     <strong><a href="http://www.tavernadelmarinaio.com/">Taverna del Marinaio</a></strong>.
+			 The Pinuccio brothers opened the restauarnt in 1989 after spending plenty of time in their grandmother's famous restaurant,
+			 "Navicello". Don't miss out on this Portofino favorite.</p>
+	     <h4>La Sponda</h4>
+		  <p>Enjoy a romantic dinner at the Michelin starred<strong><a hred="https://sirenuse.it/en/restaurants-bars">
+	       La Sponda</a></strong>.
+		   Every evening La Sponda is lit by four hundred candles. The live music, sea views, and delicious food make for an 
+		   unforgettable evening.</p>
+	   </div>
+	   <div class="PortofinoPhoto">
+	     <img src="RestaurantWindow.jpg" alt="Restaurant Window" class="restaurantwindow">
+	   </div>
+	  </div>
+	 </article> 
+	 
+	 <article class="Amalfi">
+	 <h3>Amalfi</h3>
+	  <div class="AmalfiRow">
+	    <div class="MarinaPhoto">
+		  <img src="SeaAgainstBlue.jpg" alt="Amalfi View" class="marinaview">
+		</div>
+		
+		<div class="MarinaText">
+		 <h4>Ristorante Marina Grande</h4>
+		   <p>Spend a day soaking in the sun at the beach and end the day with a delcious dinner at <strong>
+		   <a href="https://www.ristorantemarinagrande.com/en/index.php">Ristorante Marina Grande</a></strong>.
+			The Marina Grande is a beach club, lounge and restaurant. Purchase a beach pass for around eight Euros
+			and access their comfortable seaside lounge chairs and services. In the evening, make your way to the restaurant for a 
+			casual dining experience with an exceptional seaside view.</p>
+		</div>
+	   <div class="AmalfiText">
+	      <h4>Trattoria Da Maria</h4>
+		    <p>When you plan your visit to the Cathedral of Amalfi, make sure you plan on having lunch or dinner at 
+			   <strong><a href="http://www.amalfitrattoriadamaria.com/en/index.html">Trattoria
+			   Da Maria</a></strong>. Afterall, a trip to Italy would not be complete without pizza! The family owned restaurant
+			   is cute and cozy, and prices won't break your wallet.</p>
+		</div>
+		<div class="AmalfiPhoto">
+		  <img src="cozyseat.jpg" alt="Trattoria" class="pizzeria">
+	  	</div>
+	   </div>
+	  </article>
+  
+      <article class="Capri">
+	    <h3>Capri</h3>
+    	<div class="CapriRow">
+	     <div class="CapriPhoto">
+	       <img src="CapriIsland.jpg" alt="View from Island" class="islandcapri">
+	     </div>
+         <div class="CapriRestaurant">
+    	  <h4>Il Riccio</h4>
+		    <p>This cliffside restaurant sits on the Island of Capri and overlooks the famous Blue Grotto.
+			   The Michelin starred restaurant is known for it's delicious seafood.
+			   Try the Spaghetti all chitarra with sea urchins, and afterwards head into the
+			   Temptation Room to try an assortment of delcious desserts.</p>
+	     </div>
+		 <div class="LighthousePhoto">
+			<img src="bluegrottoboats.jpg" alt="Blue Grotto" class="GrottoBoats">
+		 </div>
+	     <div class="CapriSecRestaurant">
+	      <h4>Lida Del Farro</h4>
+		   <p> Reserve a table for dinner at Lida Del Farro to catch one of the best sunsets along the Amalfi Coast. The restaurant offers
+			  a view of the historic Punta Carena lighthouse and the Capri seashore. The restaurant opens at noon and closes 
+			  at sunset each day. They require a reservation, so make sure you book ahead!</p>
+	    </div>
+     </div> 
+   </article>
+  </section>
+   <footer>
+    
+     <p class="UpdateInfo">Want to know when we update? Subscribe.</p>
+	   
+	  <form class="subform"  method="post" action="submit.html">
+		<p>
+		  <label for="email" class="label">Email address:</label>
+		  <input type="text" name="email" id="email">
+		</p>
+	    <p>
+		  <input type="submit" value="Subscribe">
+	    </p>
+    </form>
+	
+  </footer>
+ </body>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
+	   
