@@ -1,0 +1,611 @@
+/* reset browser styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/*End Reset*/
+
+body {
+ background-color: #f8f8ff;
+}
+
+body, p {
+	font-family: 'Open Sans', Arial, Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Start NavBar*/
+
+header {
+ height: 25%;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #FEDF7C;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #1F98F1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Cedarville Cursive';
+}
+
+.topnav a:hover {
+  background-color: #71CE8F;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #F87690;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.logo > a {
+	font-family: 'Cedarville Cursive';
+	font-size: 2.5em;
+
+	
+}
+
+/* End Header: NavBar and Logo */
+
+.MainIMG {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 4%;
+}
+
+h2 {
+	font-family: 'Cedarville Cursive', Arial, Helvetica;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 3%;
+	
+	
+}
+
+h3 {
+	font-family: 'Cedarville Cursive', Arial, Helvetica;
+	font-size: 1.7em;
+	text-align: center;
+	margin-bottom: 2%;
+	
+}
+
+/*Sorrento Styles */
+
+
+.Sorrento {
+	margin-top: 7%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+	border: 2px solid #4ACCCC;
+	padding: 3%;
+	background-color: #9FE4B6;
+		
+}
+
+
+
+.SorrentoROW {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: white; */
+}
+
+.SorrentoPicture {
+	flex: 65%;
+	height: 500px;
+
+}
+.Gelateria {
+	padding-left: 10%;
+	max-width: 100%;
+	height: 500px;
+	}
+
+.SorrentoText > h3 {
+	margin-top: -3%;
+}
+.SorrentoText {
+	flex: 40%;
+	margin-right: 5%;
+		
+}
+
+.SorrentoText a {
+	color: hotpink;
+}
+
+h4 {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	
+}
+p.GelatoClassSorrento {
+	
+	margin-bottom: 2%;
+}
+
+p.DinnerSorrento {
+	
+	margin-bottom: 2%;
+}
+
+/*End Sorrento Styles*/
+
+/*
+
+.Positano {
+	margin-top: 7%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+	border: 2px solid #FE6D5E;
+	padding: 3%;
+	background-color: #FEDF7C;
+		
+}
+
+.PositanoRow {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	/*	background-color: Pink; */
+}
+/*
+.PositanoText {
+	flex: 40%;
+	margin-right: 5%;
+	background-color: blue; 
+		
+}
+
+.PositanoPicture {
+	flex: 50%;
+	height: 800px;
+	background-color: white;
+
+}
+
+.BlueOrangeUmbrellas {
+	max-width: 100%;
+	height: 400px;
+}
+
+.WindingDown {
+	max-width: 100%;
+	height: 400px;
+}
+*/
+
+/* Begin Positano Style*/
+.Positano {
+	margin-top: 7%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+			
+}
+
+.PositanoRow {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	/*height: 900px; */
+	background-color: #FEDF7C;
+	border: 2px solid #FE6D5E;
+	padding: 3%;
+}
+
+.PositanoText {
+	flex: 40%;
+	margin-right: 5%;
+/*	background-color: blue; */
+		
+}
+
+.PositanoPicture {
+	flex: 50%;
+	height: 400px;
+/*	background-color: white;*/
+	
+}
+
+.BlueOrangeUmbrellas {
+	max-width: 100%;
+	height: 400px;
+}
+
+.WindingDown {
+	max-width: 85%;
+	height: 400px;
+}
+
+.ThirdHikeIMG {
+	flex: 50%;
+	height: 400px;
+	padding-top: 4%;
+	margin-bottom: 20px;
+/*	background-color: green; */
+}
+
+.HikingText {
+	flex: 40%;
+	padding-top: 1%;
+}
+
+
+.EmeraldGrotto {
+	margin-Top: 5%;
+}
+
+/*End Positano Style */
+.Amalfi {
+	margin-top: 7%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+	border: 2px solid #9E2A32;
+	padding: 3%;
+	background-color: #E88088;
+		
+}
+
+
+.AmalfiROW {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: white; */
+}
+
+.AmalfiPicture {
+	flex: 50%;
+	margin-Top: 3%;
+	
+	
+}
+.candles {
+	margin-right: 5%;
+	max-width: 100%;
+	
+	}
+	
+.AmalfiText {
+	flex: 45%;
+	margin-right: 2%;
+	padding-left: 5%;
+		
+}
+
+.AmalfiText > h4 {
+	margin-bottom: 5%;
+}
+
+/*footer*/
+footer {
+	margin-top: 15%;
+	border-top: double #DAD4EF;
+	/*background-color: rgba(74,204,204,.5);*/
+	font-family: 'Open Sans', Tahoma, Geneva, sans-serif;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255,233,162,.2) 40%,
+	rgba(74,204,204,.3));
+	
+}
+.subform {
+	margin-top: 2%;
+	margin-right: 2%;
+	font-size: 1em;
+	color: black;
+	
+}
+
+.subform .label {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	margin-right: 10px;
+	font-weight: bold;
+	color: black;
+}
+
+.subform input[type="submit"] {
+	margin-left: 40px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 10px 25px;
+	font-size: 1em;
+	color: black;
+	background: linear-gradient(to bottom, rgba(248,118,144,.2)40%,
+	rgba(248,118,144,.5));
+	border-radius: 5px;
+	border: #F87690;
+}
+.subform input[type="text"] {
+	border-radius: 5px;
+	border-color: white;
+	background-color: #FFF2CA;
+	width: 300px;
+	padding: 5px;
+	
+}
+/* Tablets */
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* medium display only */ 
+
+@media (min-width: 481px) and (max-width:768px) { 
+/*Town IMG Links */
+
+.Amalfi {
+	width: 75%;
+}
+
+.AmalfiPicture {
+	flex: 50%;
+	margin-Top: 10%;
+}
+
+	
+.AmalfiText {
+	flex: 50%;
+	margin-left: 1%;
+}
+
+/* Begin Positano Style*/
+.Positano {
+	width: 100%;
+}
+
+.PositanoRow {
+	width: 90%;
+}
+
+.PositanoPicture {
+	flex: 55%;
+	/*height: 380px; */
+	margin-Top: 5%;
+}
+
+.BlueOrangeUmbrellas {
+	max-width: 100%;
+	/*height: 400px;*/
+}
+
+.WindingDown {
+	max-width: 90%;
+	/*height: 400px;*/
+	
+}
+
+.ThirdHikeIMG {
+	flex: 50%;
+	margin-Top: 7%;
+	/*height: 400px;*/
+	/*	background-color: green; */
+}
+
+/*End Positano Style */
+
+/*Begin Sorrento */
+
+.Sorrento {
+	margin-top: 7%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+	border: 2px solid #4ACCCC;
+	/*padding: 3%; */
+	background-color: #9FE4B6;
+		
+}
+
+
+
+.SorrentoROW {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+/*	background-color: white; */
+}
+
+.SorrentoPicture {
+	flex: 60%;
+	/*height: 500px;*/
+	margin-top: 6%;
+
+}
+.Gelateria {
+	padding-left: 5%;
+	max-width: 90%;
+	/*height: 500px;*/
+	}
+
+} 
+
+/* small display only */ 
+
+@media (max-width:480px) { 
+
+.Amalfi {
+	margin-top: 10%;
+	width: 90%;	
+}
+
+
+.AmalfiROW {
+	flex-wrap: wrap;
+}
+
+.AmalfiPicture {
+	flex: 80%;
+	margin-Top: 3%;
+}
+
+.AmalfiText {
+	flex: 80%;
+}
+
+.AmalfiText h3 {
+	margin-Top: 3%;
+	margin-bottom: 5%;
+}
+.AmalfiText > h4 {
+	margin-bottom: 5%;
+	
+}
+/* Begin Positano Style*/
+.Positano {
+	margin-top: 7%;
+	/*width: 90%; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7%;
+			
+}
+
+.PositanoRow {
+	display: flex;
+    flex-direction: column;
+	width: 90%;
+
+}
+
+.PositanoText {
+	flex: 80%;
+	margin-bottom: 5%;
+}
+
+.PositanoPicture {
+	flex: 80%;
+}
+
+
+.WindingDown {
+	max-width: 100%;
+	
+}
+
+/*Sorrento Styles */
+
+
+.Sorrento {
+	width: 90%;
+}
+
+
+.SorrentoROW {
+	flex-direction: column;
+}
+
+.Gelateria {
+	padding-left: 0%;
+	max-width: 100%;
+}
+
+.SorrentoText > h3 {
+	margin-top: 5%;
+}
+.SorrentoText {
+	flex: 40%;
+	margin-right: 5%;
+		
+}
+
+.SorrentoText a {
+	color: hotpink;
+}
+
+h4 {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	
+}
+p.GelatoClassSorrento {
+	
+	margin-bottom: 2%;
+}
+
+p.DinnerSorrento {
+	
+	margin-bottom: 2%;
+}
+
+}
+
+} 
+/*End properties that only apply to phones */ 
